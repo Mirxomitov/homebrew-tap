@@ -1,11 +1,10 @@
-# Homebrew formula for Eyebreak — the native (no-SwiftBar) menu-bar app.
+# Homebrew formula for Eyebreak — a native macOS menu-bar eye-break timer.
 #
 #   brew install mirxomitov/tap/eyebreak
 #   brew services start eyebreak      # run it now and at every login
 #
 # Building from source means the app is compiled on the user's own machine, so it
-# needs no Developer ID signing/notarization to get past Gatekeeper. No SwiftBar,
-# no separate deploy step — this is the one-stop native install.
+# needs no Developer ID signing/notarization to get past Gatekeeper.
 class Eyebreak < Formula
   desc "Native menu-bar 20-20-20 eye-break timer with a full-screen break blocker"
   homepage "https://github.com/Mirxomitov/eyebreak"
@@ -50,8 +49,7 @@ class Eyebreak < Formula
 
         eyebreak
 
-      Look for the 👀 icon in your menu bar. State lives in ~/.eyebreak (shared
-      with the SwiftBar version, if you ever used it).
+      Look for the 👀 icon in your menu bar. State lives in ~/.eyebreak.
     EOS
   end
 
