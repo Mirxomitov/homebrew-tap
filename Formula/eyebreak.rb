@@ -9,9 +9,9 @@ class Eyebreak < Formula
   desc "Native menu-bar 20-20-20 eye-break timer with a full-screen break blocker"
   homepage "https://github.com/Mirxomitov/eyebreak"
   license "MIT"
-  url "https://github.com/Mirxomitov/eyebreak/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "68c2037d184f6c51681427fe9d64d03203cc809e8871a1d8aa7ddd57dc449e05"
-  version "1.2.0"
+  url "https://github.com/Mirxomitov/eyebreak/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "5d362b06f663b052ed78d9d8eb72990778883893f07c70e2ff6db7cd65524181"
+  version "1.3.0"
   head "https://github.com/Mirxomitov/eyebreak.git", branch: "main"
 
   depends_on :macos
